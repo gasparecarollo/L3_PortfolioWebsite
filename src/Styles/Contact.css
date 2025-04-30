@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    background-color: black;
+    color: gray;
+}
+
 .navbar {
     display: flex;
     border-style: ridge;

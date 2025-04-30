@@ -8,6 +8,34 @@ body {
     gap: 20px;
 }
 
+/* Nav */
+.navbar {
+    display: flex;
+    border-style: ridge;
+    border-radius: 2px;
+    background-color: black;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.navbar-links a {
+    color: gray;
+    border-radius: 2px;
+    border-color: blue;
+}
+
+.navbar-links {
+    color: gainsboro;
+    border-radius: 2px;
+}
+
+
 h1 {
     color: white;
     margin: 0 0 20px;
